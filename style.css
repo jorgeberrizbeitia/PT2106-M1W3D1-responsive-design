@@ -34,6 +34,42 @@ body {
   /* display:flex; */
   /* THIS IS NOT FLEXBOX */
   text-align: center;
-  background-image: url() ;
 }
 
+.my-navbar-short {
+  display: none;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 1200px) {
+
+  .background {
+    background-color: red;
+  }
+
+}
+
+@media (max-width: 900px) {
+
+  .background {
+    background-color: yellow;
+  }
+
+  .my-navbar-long {
+    display: none;
+  }
+
+  .my-navbar-short {
+    display: block;
+  }
+
+}
+
+@media (max-width: 600px) {
+
+  .background {
+    background-color: darkgreen;
+  }
+
+}
