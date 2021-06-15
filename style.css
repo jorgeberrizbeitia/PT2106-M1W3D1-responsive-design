@@ -1,0 +1,39 @@
+body {
+  margin:0;
+}
+
+.background {
+  background-color: blue;
+  /* height: 800px; */
+  min-height: 100vh;
+  /* padding: 200px */
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10px;
+}
+
+.title {
+  background-color: pink;
+}
+
+.parag {
+  background-color: violet;
+  /* display:flex; */
+  /* THIS IS NOT FLEXBOX */
+  text-align: center;
+  background-image: url() ;
+}
+
